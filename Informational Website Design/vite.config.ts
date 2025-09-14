@@ -10,13 +10,4 @@ export default defineConfig({
       '@': new URL('./src', import.meta.url).pathname,
     },
   },
-  css: {
-    postcss: {
-      plugins: [
-        require('tailwindcss'),
-        require('autoprefixer'),
-      ],
-    },
-  },
 })
-```
